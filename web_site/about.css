@@ -1,0 +1,68 @@
+body{
+  background-image: url("web_background.png");
+  background-size: cover;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+h2{
+  color: white;
+  font-size: 60px;
+  font: serif;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h3{
+  text-align: center;
+}
+p.aboutus
+{
+  text-align: center;
+}
+.ourplan{
+  background: white;
+  height: 500px;
+  width: 500px;
+}
+
+/* スタイル適当です */
+.nav {
+    display: table;
+    padding-left: 0;
+    width: 100%;
+    background: #FFF;
+}
+.nav__item {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.nav__item + .nav__item {
+    border-left: 1px solid #CCC;
+}
+.nav__item a {
+    display: block;
+    padding: 15px 0;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav__item:hover{
+  opacity: 0.5;
+}
+.parent {/*親要素*/
+  opacity: 0.6;
+  position: relative;
+  background: skyblue;
+  height: 700px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 40px
+
+
+}
